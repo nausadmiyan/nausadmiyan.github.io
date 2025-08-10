@@ -11,7 +11,7 @@
 | engine | engine to be used for processing templates  |
 
 ## Links
-[link text](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en)
+[My scholar page](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en)
 [link with title](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en/"My scholar page !")
 
 
