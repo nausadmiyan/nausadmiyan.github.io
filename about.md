@@ -1,14 +1,37 @@
 ---
 layout: page
-title: ' '
+title: ""
 permalink: /about/
 ---
+
+<style>
+/* Hide default titles across common GitHub Pages themes */
+h1.page-title,
+header h1,
+.page-header h1,
+.post-title,
+.project-name {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+</style>
 
 <div align="center">
   <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 80%; margin-bottom: 15px;">
   <h2 style="margin-bottom: 5px;">Nausad Miyan</h2>
   <p>Ph.D. Student · Civil and Environmental Engineering · University of Rhode Island</p>
 </div>
+
+---
+
+I am a Ph.D. researcher in Civil and Environmental Engineering at the University of Rhode Island, conducting interdisciplinary research on sustainable and intelligent construction materials. My academic and professional work focuses on developing next-generation low-carbon cementitious systems that merge experimental science, numerical modeling, and data-driven frameworks.
+
+My research connects the physical mechanisms of cementitious microstructures with predictive modeling techniques, enabling the design of materials that are durable, efficient, and environmentally responsible.
+
+My studies integrate laboratory experimentation, finite element modeling, and machine learning to predict and optimize the performance of alkali-activated and auxetic composites. This work aims to uncover mechanistic insights into hydration reactions, microstructural evolution, and phase transitions that govern strength, durability, and sustainability of modern binders.
+
+The utilization of industrial by-products such as blast furnace, basic oxygen furnace, and ferrochrome slags forms the foundation of my experimental work. These materials, typically treated as waste, are transformed into high-performance binders through alkali activation, allowing substantial reductions in the carbon footprint of construction materials.
 
 
 ---
