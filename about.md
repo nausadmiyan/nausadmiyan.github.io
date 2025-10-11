@@ -7,7 +7,7 @@ permalink: /about/
 <div align="center">
   <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 50%; margin-bottom: 15px;">
   <h2 style="margin-bottom: 5px;">Nausad Miyan</h2>
-  <p>Ph.D. Researcher · Civil and Environmental Engineering · University of Rhode Island</p>
+  <p>Ph.D. Student · Civil and Environmental Engineering · University of Rhode Island</p>
 </div>
 
 ---
