@@ -1,8 +1,9 @@
+<img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 50%; margin-bottom: 15px;">
+
 ---
 layout: page
 title: About Me
 permalink: /about/
-<img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 50%; margin-bottom: 15px;">
 ---
 
 I am a PhD researcher in Civil and Environmental Engineering at the University of Rhode Island, conducting interdisciplinary research on sustainable and intelligent construction materials. My academic and professional work focuses on the development of next-generation low-carbon cementitious systems that merge experimental science, numerical modeling, and data-driven frameworks. My research direction stems from a deep interest in connecting the physical mechanisms of cementitious microstructures with predictive modeling techniques, enabling the design of materials that are not only durable and efficient but also environmentally responsible.  
