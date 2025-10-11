@@ -1,6 +1,8 @@
 ---
 layout: page
+title: About me
 permalink: /about/
+hide_title: true
 ---
 
 <div align="center">
