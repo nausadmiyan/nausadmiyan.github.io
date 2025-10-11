@@ -1,27 +1,15 @@
 ---
 layout: page
-title: " "
+title: About me
 permalink: /about/
 ---
-
-<!-- Hide page title for all common GitHub Pages themes -->
-<style>
-h1.page-title,
-header h1,
-.page-header h1,
-h1.post-title,
-h1.project-name {
-  display: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-</style>
 
 <div align="center">
   <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 80%; margin-bottom: 15px;">
   <h2 style="margin-bottom: 5px;">Nausad Miyan</h2>
   <p>Ph.D. Student · Civil and Environmental Engineering · University of Rhode Island</p>
 </div>
+
 
 ---
 
