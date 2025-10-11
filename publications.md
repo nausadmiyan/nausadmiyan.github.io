@@ -1,9 +1,10 @@
 ---
 layout: page
-
+title: Publications
 permalink: /publications/
+hide_title: ture
 ---
-### Published research papers
+### **Published research papers**
 
 ### 2025
 - [Characterization of rapid-hardening alkali-activated binders incorporating basic oxygen furnace slag and blast furnace slag](https://www.sciencedirect.com/science/article/abs/pii/S2352710225018534)  
