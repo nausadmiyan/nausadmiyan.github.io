@@ -1,19 +1,20 @@
 ---
 layout: page
-title: About me
+title: " "
 permalink: /about/
 ---
 
-<!-- Hide the auto-inserted page title across common GitHub Pages themes -->
+<!-- Hide page title for all common GitHub Pages themes -->
 <style>
-/* Minima */
-h1.page-title { display: none !important; }
-/* Cayman/Slate/others that put an h1 inside a header */
-header h1 { display: none !important; }
-/* Fallbacks used by some themes */
-h1.post-title, h1.project-name, .page-header h1 { display: none !important; }
-/* If your theme leaves an empty top gap, remove it */
-.page-title, .post-title, .project-name, .page-header h1 { margin: 0 !important; padding: 0 !important; }
+h1.page-title,
+header h1,
+.page-header h1,
+h1.post-title,
+h1.project-name {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
 </style>
 
 <div align="center">
@@ -23,8 +24,6 @@ h1.post-title, h1.project-name, .page-header h1 { display: none !important; }
 </div>
 
 ---
-
-
 
 I am a PhD researcher in Civil and Environmental Engineering at the University of Rhode Island, conducting interdisciplinary research on sustainable and intelligent construction materials. My academic and professional work focuses on the development of next-generation low-carbon cementitious systems that merge experimental science, numerical modeling, and data-driven frameworks. My research direction stems from a deep interest in connecting the physical mechanisms of cementitious microstructures with predictive modeling techniques, enabling the design of materials that are not only durable and efficient but also environmentally responsible.  
 
