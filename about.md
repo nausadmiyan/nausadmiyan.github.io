@@ -1,9 +1,15 @@
-<img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 50%; margin-bottom: 15px;">
-
 ---
 layout: page
 title: About Me
 permalink: /about/
+---
+
+<div align="center">
+  <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 50%; margin-bottom: 15px;">
+  <h2 style="margin-bottom: 5px;">Nausad Miyan</h2>
+  <p>Ph.D. Researcher · Civil and Environmental Engineering · University of Rhode Island</p>
+</div>
+
 ---
 
 I am a PhD researcher in Civil and Environmental Engineering at the University of Rhode Island, conducting interdisciplinary research on sustainable and intelligent construction materials. My academic and professional work focuses on the development of next-generation low-carbon cementitious systems that merge experimental science, numerical modeling, and data-driven frameworks. My research direction stems from a deep interest in connecting the physical mechanisms of cementitious microstructures with predictive modeling techniques, enabling the design of materials that are not only durable and efficient but also environmentally responsible.  
@@ -16,4 +22,4 @@ My research portfolio includes collaborative publications in high-impact journal
 
 The overarching objective of my research is to establish a unified circular framework for material design that bridges experiments, simulations, and data interpretation. By coupling multiscale modeling with machine learning and physical experimentation, I seek to provide a foundation for designing cementitious materials that are resilient, resource-efficient, and adaptable to evolving environmental demands. My long-term vision is to leverage computational tools and generative modeling to accelerate discovery in low-carbon construction materials and to contribute toward the global transition to carbon-neutral infrastructure.  
 
-Links: [Scholar](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en) · [GitHub](https://github.com/nausadmiyan)
+**Links:** [Scholar](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en) · [GitHub](https://github.com/nausadmiyan)
