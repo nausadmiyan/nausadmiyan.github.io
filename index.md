@@ -3,6 +3,22 @@ layout: home
 title: Home
 ---
 
+<!-- Hide the page title (safe version without syntax highlights) -->
+<style type="text/css">
+h1.page-title,
+header h1,
+.page-header h1,
+.post-title,
+.project-name {
+  display: none;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
+
+
 ### Research focus
 Sustainable cementitious systems, auxetic composites, and ML-driven modeling across experiments, numerical analysis, and interpretability.
 
