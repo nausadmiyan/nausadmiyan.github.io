@@ -11,6 +11,21 @@ permalink: /about/
 
 ---
 
+
+<!-- Hide the page title (safe version without syntax highlights) -->
+<style type="text/css">
+h1.page-title,
+header h1,
+.page-header h1,
+.post-title,
+.project-name {
+  display: none;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
 I am a PhD researcher in Civil and Environmental Engineering at the University of Rhode Island, conducting interdisciplinary research on sustainable and intelligent construction materials. My academic and professional work focuses on the development of next-generation low-carbon cementitious systems that merge experimental science, numerical modeling, and data-driven frameworks. My research direction stems from a deep interest in connecting the physical mechanisms of cementitious microstructures with predictive modeling techniques, enabling the design of materials that are not only durable and efficient but also environmentally responsible.  
 
 My current studies involve integrating laboratory experimentation with finite element modeling and machine learning to predict and optimize the performance of alkali-activated and auxetic composites. Through this work, I aim to uncover mechanistic insights into hydration reactions, microstructural evolution, and phase transitions that govern the strength, durability, and sustainability of modern binders. The utilization of industrial by-products such as blast furnace, basic oxygen furnace, and ferrochrome slags forms the foundation of my experimental studies. These materials, typically treated as waste, are transformed into high-performance binders through alkali activation, allowing substantial reductions in the carbon footprint compared to conventional Portland cement systems. I also study the coupling of these binders with phase change materials and auxetic geometries to enhance thermal stability, self-defrosting capability, and energy absorption under complex stress conditions.  
