@@ -19,6 +19,22 @@ header h1,
 }
 </style>
 
+<!-- Compact dropdown for Works subsections (no !important, theme-safe) -->
+<details>
+  <summary><strong>Works ▾</strong></summary>
+  <ul>
+    <li><a href="/publications/">Publications</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#theses">Theses</a></li>
+    <li><a href="#intellectual-properties">Intellectual Properties</a></li>
+  </ul>
+</details>
+
+### Projects {#projects}
+
+
+
+
 - **Summer Internship** at [The Consulting Engineers Group](https://www.cegengineers.com/), Inc. (2025)
   
 - **Industrial Placement** at [LBA Design and Consultancy](https://www.linkedin.com/company/lba-design-and-consultancy), Turkey (2022-2023)
@@ -30,3 +46,13 @@ header h1,
 Software and Datasets:
 - [Repo 1](https://github.com/nausadmiyan/repo-1) — brief tag
 - [Repo 2](https://github.com/nausadmiyan/repo-2) — brief tag
+
+
+### Theses {#theses}
+
+*To be added.*
+
+
+### Intellectual Properties {#intellectual-properties}
+
+*To be added.*
