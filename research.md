@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academic
-permalink: /academic/
+title: Research
+permalink: /research/
 ---
 
 <!-- Hide the page title (safe version without syntax highlights) -->
