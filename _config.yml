@@ -24,6 +24,8 @@ nav:
   url: /
 - title: About
   url: /about/
+- title: Research
+  url: /research/
 - title: Works
   url: /works/
   children:
@@ -35,7 +37,5 @@ nav:
     url: /works/theses/
   - title: Intellectual Properties
     url: /works/intellectual-properties/
-- title: Academic
-  url: /academic/
 - title: Contact
   url: /contact/
