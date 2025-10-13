@@ -19,19 +19,16 @@ header h1,
 }
 </style>
 
-<!-- Compact dropdown for Works subsections (no !important, theme-safe) -->
+<!-- Works navigation -->
 <details>
   <summary><strong>Works ▾</strong></summary>
   <ul>
-    <li><a href="/publications/">Publications</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#theses">Theses</a></li>
-    <li><a href="#intellectual-properties">Intellectual Properties</a></li>
+    <li><a href="/works/publications/">Publications</a></li>
+    <li><a href="/works/projects/">Projects</a></li>
+    <li><a href="/works/theses/">Theses</a></li>
+    <li><a href="/works/intellectual-properties/">Intellectual Properties</a></li>
   </ul>
 </details>
-
-### Projects {#projects}
-
 
 
 
@@ -46,13 +43,3 @@ header h1,
 Software and Datasets:
 - [Repo 1](https://github.com/nausadmiyan/repo-1) — brief tag
 - [Repo 2](https://github.com/nausadmiyan/repo-2) — brief tag
-
-
-### Theses {#theses}
-
-*To be added.*
-
-
-### Intellectual Properties {#intellectual-properties}
-
-*To be added.*
