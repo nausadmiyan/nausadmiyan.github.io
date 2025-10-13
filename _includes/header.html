@@ -43,40 +43,53 @@
 </header>
 
 <style>
-/* Sticky header: remains visible while scrolling */
+/* Sticky header */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #ffffff;        /* solid background so content doesn't show through */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06); /* subtle shadow when stuck */
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 }
 
-/* Prevent content from sitting under the header on some themes */
+/* Improve anchor offsets below sticky header */
 .site-header + .page-content,
 .site-header + main,
 .wrapper + main {
-  scroll-margin-top: 64px;    /* improves anchor scroll targets */
+  scroll-margin-top: 64px;
 }
 
-/* Basic nav layout */
-.nav-list { list-style: none; margin: 0; padding: 0; display: flex; gap: 1rem; }
+/* Nav layout and alignment */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center; /* align all items vertically */
+}
 .nav-item { position: relative; }
-.nav-item > a, .nav-parent { text-decoration: none; color: inherit; }
 
-/* Works parent tab: keep normal look (no background) */
+/* Normalize link and parent styles to align baseline */
+.nav-item > a,
 .nav-parent {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
-  cursor: default;
+  padding: 0.35rem 0.5rem;
+  line-height: 1.5;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Dropdown menu — darker grey background, white text */
+/* Works parent tab: keep normal look (no background, non-clickable) */
+.nav-parent { cursor: default; background: transparent; }
+
+/* Dropdown menu — darker grey, white text */
 .nav-item.has-children:hover > .dropdown { display: block; }
 .dropdown {
   display: none;
   position: absolute;
-  background: #9a9a9a;   /* slightly darker grey */
+  background: #9a9a9a;
   border: 1px solid rgba(0,0,0,0.12);
   box-shadow: 0 6px 16px rgba(0,0,0,0.10);
   padding: 0.4rem 0.6rem;
@@ -87,7 +100,7 @@
 }
 .dropdown li { margin: 0.2rem 0; }
 .dropdown a {
-  color: #ffffff;        /* white text */
+  color: #ffffff;
   text-decoration: none;
   display: block;
   padding: 0.25rem 0.3rem;
