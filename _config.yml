@@ -20,8 +20,6 @@ plugins:
 - jekyll-feed
 author: Nausad Miyan
 nav:
-- title: Home
-  url: /
 - title: About me
   url: /about/
 - title: Research
