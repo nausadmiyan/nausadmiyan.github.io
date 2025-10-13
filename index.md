@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Home
-hide_title: ture
 ---
 
 <!-- Hide the page title (safe version without syntax highlights) -->
@@ -10,15 +9,15 @@ h1.page-title,
 header h1,
 .page-header h1,
 .post-title,
-.project-name {
+.project-name,
+h1.home-title,
+.main-content h1:first-child {
   display: none;
   visibility: hidden;
   margin: 0;
   padding: 0;
 }
 </style>
-
-
 
 ### Research focus
 Sustainable cementitious systems, auxetic composites, and ML-driven modeling across experiments, numerical analysis, and interpretability.
