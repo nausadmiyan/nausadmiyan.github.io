@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+hide_title: ture
 ---
 
 <!-- Hide the page title (safe version without syntax highlights) -->
