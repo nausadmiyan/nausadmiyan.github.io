@@ -1,0 +1,43 @@
+title: Home
+description: "Civil & Environmental Engineering — URI | Sustainable materials, ML-driven modeling, multiscale mechanics"
+theme: minima
+url: https://nausadmiyan.github.io
+github_username: nausadmiyan
+
+header_pages:
+  - about.md
+  - publications.md
+  - works.md
+  - academic.md
+
+minima:
+  skin: auto
+  social_links:
+    - platform: google_scholar
+      user_url: https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en
+    - platform: github
+      user_url: https://github.com/nausadmiyan
+
+plugins:
+  - jekyll-feed
+
+author: Nausad Miyan
+
+nav:
+  - title: About me
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Works
+    url: /works/
+    children:
+      - title: Publications
+        url: /works/publications/
+      - title: Projects
+        url: /works/projects/
+      - title: Theses
+        url: /works/theses/
+      - title: Intellectual Properties
+        url: /works/intellectual-properties/
+  - title: Contact
+    url: /contact/
