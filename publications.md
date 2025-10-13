@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Publications
-permalink: /publications/
+title: Contact
+permalink: /contact/
 hide_title: ture
 ---
 
