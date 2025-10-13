@@ -84,17 +84,21 @@
 /* Works parent tab: keep normal look (no background, non-clickable) */
 .nav-parent { cursor: default; background: transparent; }
 
-/* Dropdown menu — darker grey, white text */
+/* caret for dropdown parent (e.g., Works) */
+.nav-item.has-children > .nav-parent::after { content: " ▾"; margin-left: .25rem; opacity: .75; }
+.nav-item.has-children:hover > .nav-parent::after { opacity: 1; }
+
+/* Dropdown menu — maroon by default, white text */
 .nav-item.has-children:hover > .dropdown { display: block; }
 .dropdown {
   display: none;
   position: absolute;
-  background: ##800000;
+  background: #800000; /* maroon */
   border: 1px solid rgba(0,0,0,0.12);
   box-shadow: 0 6px 16px rgba(0,0,0,0.10);
-  padding: 0.3rem 0.4rem;
+  padding: 0.4rem 0.6rem;
   list-style: none;
-  min-width: 200px;
+  min-width: 220px;
   z-index: 1001;
   border-radius: 6px;
 }
