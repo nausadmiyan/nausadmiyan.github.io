@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+permalink: /
 ---
 
 <!-- Hide the page title (safe version without syntax highlights) -->
