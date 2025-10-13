@@ -6,9 +6,9 @@ github_username: nausadmiyan
 
 header_pages:
   - about.md
-  - publications.md
+  - research.md
   - works.md
-  - academic.md
+  - contact.md
 
 minima:
   skin: auto
