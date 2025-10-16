@@ -26,4 +26,7 @@ header h1,
 ### **Published research papers**
 
 ### 2025
-- xxxx 
+- xxxx
+  **2 East Alumni Avenue. Kingston, RI 02881**
+  **Fascitelli Center for Advanced Engineering**, Room #275
+  **nausad_miyan@uri.edu**
