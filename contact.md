@@ -1,32 +1,10 @@
 ---
 layout: page
-title: Contact
+title: ""
 permalink: /contact/
 hide_title: ture
 ---
 
-
-<!-- Hide the page title (safe version without syntax highlights) -->
-<style type="text/css">
-h1.page-title,
-header h1,
-.page-header h1,
-.post-title,
-.project-name {
-  display: none;
-  visibility: hidden;
-  margin: 0;
-  padding: 0;
-}
-</style>
-
-
-
-
-### **Published research papers**
-
-### 2025
-- xxxx
-  **2 East Alumni Avenue. Kingston, RI 02881**
-  **Fascitelli Center for Advanced Engineering**, Room #275
-  **nausad_miyan@uri.edu**
+**2 East Alumni Avenue. Kingston, RI 02881**
+**Fascitelli Center for Advanced Engineering**, Room #275
+**nausad_miyan@uri.edu**
