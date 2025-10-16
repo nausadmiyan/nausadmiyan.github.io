@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Publications
+title: ""
 permalink: /works/publications/
-hide_title: ture
+hide_title: true
 ---
 
 
