@@ -5,8 +5,8 @@ permalink: /contact/
 
 ---
 
-**2 East Alumni Avenue. Kingston, RI 02881**
+**2 East Alumni Ave. Kingston, RI 02881, United States**
 
-**Fascitelli Center for Advanced Engineering**, Room #275
+*Fascitelli Center for Advanced Engineering*, Room #275
 
-**nausad.miyan[at]uri.edu**
+nausad.miyan[at]uri.edu
