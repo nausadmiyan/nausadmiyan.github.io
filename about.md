@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: ""
 permalink: /about/
 ---
 <div align="center">
@@ -12,19 +12,6 @@ permalink: /about/
 ---
 
 
-<!-- Hide the page title (safe version without syntax highlights) -->
-<style type="text/css">
-h1.page-title,
-header h1,
-.page-header h1,
-.post-title,
-.project-name {
-  display: none;
-  visibility: hidden;
-  margin: 0;
-  padding: 0;
-}
-</style>
 
 I am a PhD researcher in Civil and Environmental Engineering at the University of Rhode Island, conducting interdisciplinary research on sustainable and intelligent construction materials. My academic and professional work focuses on the development of next-generation low-carbon cementitious systems that merge experimental science, numerical modeling, and data-driven frameworks. My research direction stems from a deep interest in connecting the physical mechanisms of cementitious microstructures with predictive modeling techniques, enabling the design of materials that are not only durable and efficient but also environmentally responsible.  
 
