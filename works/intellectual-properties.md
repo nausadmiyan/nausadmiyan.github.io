@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intellectual Properties
+title: ""
 permalink: /works/intellectual-properties/
 ---
 
