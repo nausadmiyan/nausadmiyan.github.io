@@ -2,7 +2,7 @@
 layout: page
 title: ""
 permalink: /contact/
-hide_title: ture
+
 ---
 
 **2 East Alumni Avenue. Kingston, RI 02881**
