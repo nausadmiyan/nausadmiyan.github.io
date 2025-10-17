@@ -31,19 +31,19 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
   <!-- EDIT THESE: titles + details -->
   <ul id="nm-pub-source" hidden>
     <li>
-      <a href="https://doi.org/10.1016/j.somejournal.2025.000001">Characterization of rapid-hardening alkali-activated binders (BOFS+BFS)</a>
+      <a href="https://doi.org/10.1016/j.jobe.2025.113616">Characterization of rapid-hardening alkali-activated binders incorporating basic oxygen furnace slag and blast furnace slag</a>
       <small>Ömür T., Boylu S., Cafaloma T., Miyan N., Kabay N. — Recent Advances in Science and Engineering, 2025</small>
     </li>
     <li>
-      <a href="https://doi.org/10.1080/21650373.2025.2514657">Rapid-hardening mortar with BOFS: mechanics, durability, LCA</a>
+      <a href="https://doi.org/10.1080/21650373.2025.2514657">Assessment of a novel rapid-hardening mortar incorporating waste basic oxygen furnace slag: mechanical behavior, durability, and environmental impact</a>
       <small>Miyan N., Ömür T., Kabay N., Birol B. — Journal of Building Engineering, 2025</small>
     </li>
     <li>
-      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=orlzgpMAAAAJ&citation_for_view=orlzgpMAAAAJ:paper3">Integrating imputation + augmentation with interpretable ML</a>
+      <a href="https://doi.org/10.1016/j.jobe.2024.111248">Integrating data imputation and augmentation with interpretable machine learning for efficient strength prediction of fly ash-based alkali-activated concretes</a>
       <small>Authors — Journal/Venue, 2024</small>
     </li>
     <li>
-      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=orlzgpMAAAAJ&citation_for_view=orlzgpMAAAAJ:paper4">Freeze–thaw performance of PCM-modified mortars</a>
+      <a href="https://doi.org/10.1016/j.conbuildmat.2024.138767">LC3 cementitious binder incorporating microencapsulated phase change materials for self-defrosting traffic surfaces</a>
       <small>Authors — Conference/Journal, 2024</small>
     </li>
     <!-- Add more items as needed -->
