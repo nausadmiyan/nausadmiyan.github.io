@@ -48,8 +48,6 @@ permalink: /research/
 .topic p { margin: 0; line-height: 1.55; font-size: 0.96rem; }
 </style>
 
-**Education**  
-- PhD, Civil & Environmental Engineering (2023–now), [University of Rhode Island](https://www.uri.edu/)
 
 <div class="research-section">
   <h2>Research Areas</h2>
