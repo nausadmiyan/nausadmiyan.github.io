@@ -44,7 +44,7 @@ nav:
 
 # Footer style knobs you can edit anytime
 footer:
-  font_size: 14px
+  font_size: 8px
   line_height: 1.2
   padding: "2px 0"
   bg: "#f8f8f8"
