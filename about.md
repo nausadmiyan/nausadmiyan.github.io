@@ -4,12 +4,20 @@ title: ""
 permalink: /about/
 ---
 <div align="center">
-  <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 80%; margin-bottom: 15px;">
-  <h2 style="margin-bottom: 5px;">Nausad Miyan</h2>
+  <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 10%; margin-bottom: 15px;">
+  <h2 style="margin-bottom: 10px;">Nausad Miyan</h2>
   <p>Ph.D. Student · Civil and Environmental Engineering · University of Rhode Island</p>
 </div>
 
 ---
+
+
+<style>
+@media (min-width: 992px){
+  .page-content .wrapper { max-width: 1100px; }
+}
+</style>
+
 
 
 
