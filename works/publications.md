@@ -7,7 +7,7 @@ permalink: /works/publications/
 <!-- Wider page content on desktop (no !important, minimal) -->
 <style>
 @media (min-width: 992px){
-  .page-content .wrapper { max-width: 1200px; }
+  .page-content .wrapper { max-width: 1100px; }
 }
 </style>
 
