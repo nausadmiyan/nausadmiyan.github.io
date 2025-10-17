@@ -23,8 +23,6 @@ permalink: /works/portfolio/
 
 ### Software & Datasets
 
-- **ML dataset** — Initial and augmented splits (curated baseline + generated variants).  
-  [Mendeley Data](https://data.mendeley.com/datasets/zt6w24hhsx/1)
+- **[ML dataset]((https://data.mendeley.com/datasets/zt6w24hhsx/1))** — Initial and augmented splits (curated baseline + generated variants).  
 
-- **StatML Framework** — Unified ML/GenAI toolkit for data prep, augmentation, modeling, and explainability.  
-  <https://github.com/nausadmiyan/repo-2>
+- **[StatML Framework](https://github.com/nausadmiyan/repo-2)** — Unified ML/GenAI toolkit for data prep, augmentation, modeling, and explainability.  
