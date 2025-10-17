@@ -4,8 +4,8 @@ title: ""
 permalink: /works/theses/
 ---
 
-**Theses**  
-- BSc / MSc / PhD details, abstracts, links.
+**Theses and academic record**  
+- "Investigation of steel slag based geopolymer paste, mortar, and concrete (2021).
 
 **Education**  
 - PhD, Civil & Environmental Engineering (2023-now), [University of Rhode Island](https://www.uri.edu/) 
