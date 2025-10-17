@@ -33,7 +33,7 @@ nav:
     children:
       - title: Publications
         url: /works/publications/
-      - title: Projects
+      - title: Portfolio
         url: /works/portfolio/
       - title: Theses
         url: /works/theses/
