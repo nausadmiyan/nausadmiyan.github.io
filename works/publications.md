@@ -7,11 +7,11 @@ permalink: /works/publications/
 
 <style>
 @media (min-width: 992px){
-  .page-content .wrapper { max-width: 1100px; }
+  .page-content .wrapper { max-width: 1000px; }
 }
 </style>
 
-### **Published research papers**
+
 ### **Published research papers**
 
 ### 2025
