@@ -5,7 +5,7 @@ permalink: /works/theses/
 ---
 
 **Theses and academic record**  
-- "Investigation of steel slag based geopolymer paste, mortar, and concrete." (2021).
+- "Investigation of steel slag based geopolymer paste, mortar, and concrete." (2021), BSc. Civil Engineering, YTU.
 
 **Education**  
 - PhD, Civil & Environmental Engineering (2023-now), [University of Rhode Island](https://www.uri.edu/) 
