@@ -3,11 +3,6 @@ layout: page
 title: ""
 permalink: /contact/
 ---
-<style>
-@media (min-width: 992px){
-  .page-content .wrapper { max-width: 1100px; }
-}
-</style>
 
 
 
