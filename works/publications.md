@@ -4,14 +4,14 @@ title: ""
 permalink: /works/publications/
 ---
 
-<!-- Optional: hide any empty auto-inserted H1 from the theme -->
+<!-- Wider page content on desktop (no !important, minimal) -->
 <style>
-h1.page-title, .page-header h1 { display:none !important; }
 @media (min-width: 992px){
-  .page-content .wrapper { max-width: 1200px !important; }
+  .page-content .wrapper { max-width: 1200px; }
 }
 </style>
 
+### **Published research papers**
 ### **Published research papers**
 
 ### 2025
