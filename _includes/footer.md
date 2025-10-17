@@ -1,4 +1,4 @@
-**{{ site.description }}**
+
 
 © {{ "now" | date: "%Y" }} · {{ site.author }}
 
