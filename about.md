@@ -13,8 +13,8 @@ permalink: /about/
 
 
 <style>
-@media (min-width: 992px){
-  .page-content .wrapper { max-width: 1100px; }
+@media (min-width: 882px){
+  .page-content .wrapper { max-width: 950px; }
 }
 </style>
 
