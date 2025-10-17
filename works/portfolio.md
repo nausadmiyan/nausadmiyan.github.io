@@ -23,8 +23,8 @@ permalink: /works/portfolio/
 
 ### Software & Datasets
 
-- **Repo 1** — brief tag  
-  <https://github.com/nausadmiyan/repo-1>
+- **ML dataset** — Initial and augmented splits (curated baseline + generated variants).  
+  [Mendeley Data](https://data.mendeley.com/datasets/zt6w24hhsx/1)
 
-- **Repo 2** — brief tag  
+- **StatML Framework** — Unified ML/GenAI toolkit for data prep, augmentation, modeling, and explainability.  
   <https://github.com/nausadmiyan/repo-2>
