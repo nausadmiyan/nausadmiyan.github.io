@@ -108,22 +108,22 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
      but keep an internal max width so it doesn't get too wide.
   */
   .nm-recent-pubs .nm-pub-viewport {
-    /* Break out of the .wrapper */
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    padding-left: 1rem;
-    padding-right: 1rem;
+  /* Centered container (no full-bleed) */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
-    /* Let it get wider than the page content but cap it */
-    width: 100vw;
-    max-width: 1400px;      /* tweak as you like (1200–1600px) */
-    box-sizing: border-box;
-  }
+  /* Fill available width but cap at your chosen size */
+  width: 100%;
+  max-width: 1200px;  /* your chosen width */
+  box-sizing: border-box;
+}
 
   /* On very large screens you can allow even more width if desired */
   @media (min-width: 1200px){
-    .nm-recent-pubs .nm-pub-viewport { max-width: 1200px; }
-  }
+  .nm-recent-pubs .nm-pub-viewport { max-width: 1200px; }
+}
 
   /* Optional: add a bit more breathing room between items at wide sizes */
   @media (min-width: 992px){
