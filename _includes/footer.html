@@ -1,0 +1,15 @@
+<footer class="site-footer"
+        style="padding: {{ site.footer.padding | default: '2px 0' }};
+               background: {{ site.footer.bg | default: '#f8f8f8' }};
+               text-align: {{ site.footer.align | default: 'center' }};">
+  <div class="wrapper" style="margin: 0 auto;">
+    <div class="footer-md"
+         style="font-size: {{ site.footer.font_size | default: '14px' }};
+                line-height: {{ site.footer.line_height | default: '1.2' }};">
+      {% capture footer_md %}
+        {% include footer.md %}
+      {% endcapture %}
+      {{ footer_md | markdownify }}
+    </div>
+  </div>
+</footer>
