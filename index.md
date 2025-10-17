@@ -32,19 +32,19 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
   <ul id="nm-pub-source" hidden>
     <li>
       <a href="https://doi.org/10.1016/j.jobe.2025.113616">Characterization of rapid-hardening alkali-activated binders incorporating basic oxygen furnace slag and blast furnace slag</a>
-      <small>Ömür T., Boylu S., Cafaloma T., Miyan N., Kabay N. — Recent Advances in Science and Engineering, 2025</small>
+      <small>T Omur, N Miyan, H ÖZKAN, N Kabay, Journal of Building Engineering, 113616, 2025</small>
     </li>
     <li>
       <a href="https://doi.org/10.1080/21650373.2025.2514657">Assessment of a novel rapid-hardening mortar incorporating waste basic oxygen furnace slag: mechanical behavior, durability, and environmental impact</a>
-      <small>Miyan N., Ömür T., Kabay N., Birol B. — Journal of Building Engineering, 2025</small>
+      <small>T Omur, N Miyan, H Özkan, N Kabay, Journal of Sustainable Cement-Based Materials, 1-21, 2025</small>
     </li>
     <li>
       <a href="https://doi.org/10.1016/j.jobe.2024.111248">Integrating data imputation and augmentation with interpretable machine learning for efficient strength prediction of fly ash-based alkali-activated concretes</a>
-      <small>Authors — Journal/Venue, 2024</small>
+      <small>N Miyan, NMA Krishnan, S Das, Journal of Building Engineering 98, 111248, 2024</small>
     </li>
     <li>
       <a href="https://doi.org/10.1016/j.conbuildmat.2024.138767">LC3 cementitious binder incorporating microencapsulated phase change materials for self-defrosting traffic surfaces</a>
-      <small>Authors — Conference/Journal, 2024</small>
+      <small>N Kabay, N Miyan, T Omur, ML Nehdi, Construction and Building Materials 450, 138767, 111248, 2024</small>
     </li>
     <!-- Add more items as needed -->
   </ul>
