@@ -5,7 +5,7 @@ permalink: /works/portfolio/
 ---
 
 
-### Professional Experience
+### Professional experience
 
 - **Summer Internship — The Consulting Engineers Group, Inc. (2025)**  
   [cegengineers.com](https://www.cegengineers.com/)  
