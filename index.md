@@ -15,7 +15,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 **Email:** nausad_miyan@uri.edu
 
 <!-- =========================
-     Recent publications (2-up, auto-rotating like CMRG)
+     Recent publications (2-up, auto-sliding)
      ========================= -->
 <section class="nm-recent-pubs" aria-label="Recent publications">
   <h3 class="nm-recent-pubs__title">Recent publications</h3>
@@ -41,8 +41,13 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     <!-- Add more items as needed -->
   </ul>
 
-  <!-- Display area: 1 row, 2 columns -->
-  <div class="nm-pub-grid" id="nm-pub-grid" role="list"></div>
+  <!-- Slider viewport + track with two panels -->
+  <div class="nm-pub-viewport" id="nm-pub-viewport">
+    <div class="nm-pub-track" id="nm-pub-track">
+      <div class="nm-pub-panel" id="nm-panel-a"></div>
+      <div class="nm-pub-panel" id="nm-panel-b"></div>
+    </div>
+  </div>
 
   <!-- Inline SVG icon (book) -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -54,11 +59,20 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 
 <style>
   .nm-recent-pubs { margin: 2.5rem 0 1.25rem; }
-  .nm-recent-pubs__title {
-    margin: 0 0 0.75rem 0;
-    font-size: 1.15rem;
-    font-weight: 600;
+  .nm-recent-pubs__title { margin: 0 0 0.75rem; font-size: 1.15rem; font-weight: 600; }
+
+  /* Slider layout */
+  .nm-pub-viewport { overflow: hidden; }
+  .nm-pub-track {
+    display: flex;
+    width: 200%;            /* two panels side-by-side */
+    transform: translateX(0%);
+    transition: transform 500ms ease; /* slide speed */
+    will-change: transform;
   }
+  .nm-pub-panel { width: 50%; padding-right: 1rem; box-sizing: border-box; }
+
+  /* Two-up grid inside each panel */
   .nm-pub-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -71,42 +85,41 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     gap: 0.5rem 0.6rem;
     line-height: 1.3;
   }
-  .nm-pub-item svg {
-    width: 18px; height: 18px; margin-top: 0.15rem; opacity: 0.9;
-  }
+  .nm-pub-item svg { width: 18px; height: 18px; margin-top: 0.15rem; opacity: 0.9; }
   .nm-pub-item a { text-decoration: none; }
   .nm-pub-item a:hover, .nm-pub-item a:focus { text-decoration: underline; }
   .nm-pub-item small { display: block; font-size: 0.86rem; opacity: 0.8; }
 
-  /* Reduced motion: disable auto-rotate */
+  /* Reduced motion: no auto-slide */
   @media (prefers-reduced-motion: reduce) {
-    .nm-pub-grid { animation: none !important; }
+    .nm-pub-track { transition: none !important; }
   }
 </style>
 
 <script>
   (function () {
     var src = document.getElementById('nm-pub-source');
-    var grid = document.getElementById('nm-pub-grid');
-    if (!src || !grid) return;
+    var viewport = document.getElementById('nm-pub-viewport');
+    var track = document.getElementById('nm-pub-track');
+    var panelA = document.getElementById('nm-panel-a');
+    var panelB = document.getElementById('nm-panel-b');
+    if (!src || !viewport || !track || !panelA || !panelB) return;
 
+    // Collect items
     var items = Array.prototype.slice.call(src.querySelectorAll('li')).map(function(li){
       var a = li.querySelector('a');
       var sm = li.querySelector('small');
-      return {
-        href: a ? a.getAttribute('href') : '#',
-        text: a ? a.textContent : '',
-        meta: sm ? sm.textContent : ''
-      };
+      return { href: a ? a.href : '#', text: a ? a.textContent : '', meta: sm ? sm.textContent : '' };
     });
     if (!items.length) return;
 
-    function renderPair(startIdx){
-      grid.innerHTML = '';
+    function makeGrid(startIdx){
+      var grid = document.createElement('div');
+      grid.className = 'nm-pub-grid';
       for (var k = 0; k < 2; k++){
         var i = (startIdx + k) % items.length;
-        var wrap = document.createElement('div');
-        wrap.className = 'nm-pub-item';
+        var item = document.createElement('div');
+        item.className = 'nm-pub-item';
 
         var icon = document.createElementNS('http://www.w3.org/2000/svg','svg');
         var use = document.createElementNS('http://www.w3.org/2000/svg','use');
@@ -114,39 +127,81 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
         icon.appendChild(use);
         icon.setAttribute('aria-hidden','true');
 
-        var textWrap = document.createElement('div');
+        var wrap = document.createElement('div');
         var link = document.createElement('a');
         link.href = items[i].href;
         link.textContent = items[i].text;
         var meta = document.createElement('small');
         meta.textContent = items[i].meta;
 
-        textWrap.appendChild(link);
-        if (items[i].meta) textWrap.appendChild(meta);
+        wrap.appendChild(link);
+        if (items[i].meta) wrap.appendChild(meta);
 
-        wrap.appendChild(icon);
-        wrap.appendChild(textWrap);
-        grid.appendChild(wrap);
+        item.appendChild(icon);
+        item.appendChild(wrap);
+        grid.appendChild(item);
       }
+      return grid;
     }
 
-    var step = 0, delay = 3000, timer = null;
-    function start(){
-      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var step = 0;
+    var delay = 3000;          // stay time for each pair
+    var slideMs = 500;         // must match CSS transition
+    var timer = null;
+    var reduceMotion = (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+
+    function fill(panel, startIdx){
+      panel.innerHTML = '';
+      panel.appendChild(makeGrid(startIdx));
+    }
+
+    function schedule(){
+      if (reduceMotion) return; // no auto-slide
       stop();
-      timer = setInterval(function(){
-        step = (step + 2) % items.length; // show next 2
-        renderPair(step);
-      }, delay);
+      timer = setInterval(next, delay);
     }
-    function stop(){ if (timer){ clearInterval(timer); timer = null; } }
 
-    grid.addEventListener('mouseenter', stop);
-    grid.addEventListener('mouseleave', start);
-    grid.addEventListener('focusin', stop);
-    grid.addEventListener('focusout', start);
+    function stop(){
+      if (timer) { clearInterval(timer); timer = null; }
+    }
 
-    renderPair(step);
-    start();
+    function forceReflow(el){ void(el.offsetHeight); } // ensure browser applies changes
+
+    function next(){
+      // Prepare next pair in off-screen panelB
+      fill(panelB, (step + 2) % items.length);
+
+      // Slide track to show panelB
+      track.style.transform = 'translateX(-50%)';
+
+      // After slide finishes, swap content: move B into A, reset transform (no flicker)
+      setTimeout(function(){
+        step = (step + 2) % items.length;
+        // Replace A with what was in B
+        panelA.innerHTML = panelB.innerHTML;
+
+        // Reset transform instantly (temporarily disable transition)
+        var oldTransition = track.style.transition;
+        track.style.transition = 'none';
+        track.style.transform = 'translateX(0%)';
+        forceReflow(track);                 // flush
+        track.style.transition = oldTransition;
+
+        // Prefill panelB with the next-next pair for the upcoming slide
+        fill(panelB, (step + 2) % items.length);
+      }, slideMs);
+    }
+
+    // Init: show first pair in A, prefill B with the next pair
+    fill(panelA, step);
+    fill(panelB, (step + 2) % items.length);
+
+    // Pause on hover/focus
+    viewport.addEventListener('mouseenter', stop);
+    viewport.addEventListener('mouseleave', schedule);
+    viewport.addEventListener('focusin', stop);
+    viewport.addEventListener('focusout', schedule);
+
+    schedule();
   })();
 </script>
