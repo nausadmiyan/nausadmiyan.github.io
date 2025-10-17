@@ -4,7 +4,7 @@ title: ""
 permalink: /works/theses/
 ---
 
-**Theses and academic record**  
+**Theses and academic records**  
 
 ***Theses***
 - "Investigation of steel slag based geopolymer paste, mortar, and concrete." (2021), BSc. Civil Engineering, YTU.
