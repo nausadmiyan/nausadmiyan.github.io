@@ -57,7 +57,7 @@ permalink: /research/
   <div class="research-grid">
 
     <div class="topic">
-      <h3 class="topic-title">Multiscale Simulation</h3>
+      <h3 class="topic-title">Multiscale simulation</h3>
       <p>
         I develop physics-informed links from material to component to system scales using the
         <a href="https://en.wikipedia.org/wiki/Finite_element_method">finite element method</a> coupled with
@@ -72,7 +72,7 @@ permalink: /research/
     </div>
 
     <div class="topic">
-      <h3 class="topic-title">Molecular Dynamics</h3>
+      <h3 class="topic-title">Molecular dynamics</h3>
       <p>
         At the atomistic scale I use <a href="https://en.wikipedia.org/wiki/Molecular_dynamics">molecular dynamics</a>
         with validated <a href="https://en.wikipedia.org/wiki/Force_field_(chemistry)">force fields</a> to interrogate the structure–property relations of
@@ -84,7 +84,7 @@ permalink: /research/
     </div>
 
     <div class="topic">
-      <h3 class="topic-title">Precast Component Design</h3>
+      <h3 class="topic-title">Precast component design</h3>
       <p>
         My structural work advances <a href="https://en.wikipedia.org/wiki/Precast_concrete">precast concrete</a>
         component and connection design using
@@ -97,7 +97,7 @@ permalink: /research/
     </div>
 
     <div class="topic">
-      <h3 class="topic-title">Materials Characterization and Testing</h3>
+      <h3 class="topic-title">Materials characterization and testing</h3>
       <p>
         I integrate mechanical and durability testing with microstructural analyses to close the loop between experiment and model:
         <a href="https://en.wikipedia.org/wiki/Mechanical_testing">mechanical testing</a> (compression, tension, flexure, fracture, and fatigue), transport and freeze–thaw resistance,
@@ -112,7 +112,7 @@ permalink: /research/
     </div>
 
     <div class="topic">
-      <h3 class="topic-title">Data-Driven Materials Informatics and Generative Modeling</h3>
+      <h3 class="topic-title">Data-driven materials informatics and generative modeling</h3>
       <p>
         I employ <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> and
         <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">artificial intelligence</a> for property prediction and materials enhancement, combining
