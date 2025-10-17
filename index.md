@@ -4,6 +4,14 @@ title: ""
 permalink: /
 ---
 
+<style>
+@media (min-width: 992px){
+  .page-content .wrapper { max-width: 1100px; }
+}
+</style>
+
+
+
 ### Research focus
 Sustainable cementitious systems, auxetic composites, and ML-driven modeling across experiments, numerical analysis, and interpretability.
 
