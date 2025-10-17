@@ -102,6 +102,39 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
   @media (prefers-reduced-motion: reduce) {
     .nm-pub-track { transition: none !important; }
   }
+
+  /* === WIDER VIEW JUST FOR "Recent publications" ===
+     Break out of the site wrapper to a wider, full-bleed container,
+     but keep an internal max width so it doesn't get too wide.
+  */
+  .nm-recent-pubs .nm-pub-viewport {
+    /* Break out of the .wrapper */
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    /* Let it get wider than the page content but cap it */
+    width: 100vw;
+    max-width: 1400px;      /* tweak as you like (1200–1600px) */
+    box-sizing: border-box;
+  }
+
+  /* On very large screens you can allow even more width if desired */
+  @media (min-width: 1600px){
+    .nm-recent-pubs .nm-pub-viewport { max-width: 1600px; }
+  }
+
+  /* Optional: add a bit more breathing room between items at wide sizes */
+  @media (min-width: 992px){
+    .nm-recent-pubs .nm-pub-grid { gap: 1rem 2rem; }
+    .nm-recent-pubs .nm-pub-item { line-height: 1.35; }
+  }
+
+  /* Optional: on narrow screens, stack items for readability */
+  @media (max-width: 540px){
+    .nm-recent-pubs .nm-pub-grid { grid-template-columns: 1fr; }
+  }
 </style>
 
 <script>
