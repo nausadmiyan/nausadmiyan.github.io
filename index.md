@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <style>
-@media (min-width: 8822px){
+@media (min-width: 850px){
   .page-content .wrapper { max-width: 950px; }
 }
 </style>
