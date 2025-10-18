@@ -116,13 +116,13 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 
   /* Fill available width but cap at your chosen size */
   width: 100%;
-  max-width: 1200px;  /* your chosen width */
+  max-width: 1800px;  /* your chosen width */
   box-sizing: border-box;
 }
 
   /* On very large screens you can allow even more width if desired */
   @media (min-width: 1200px){
-  .nm-recent-pubs .nm-pub-viewport { max-width: 1200px; }
+  .nm-recent-pubs .nm-pub-viewport { max-width: 1800px; }
 }
 
   /* Optional: add a bit more breathing room between items at wide sizes */
