@@ -37,8 +37,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Then visit:  
-👉 `http://localhost:4000`
 
 Deployment is automatic — every push to the `main` branch updates the live site:  
 🔗 [https://nausadmiyan.github.io](https://nausadmiyan.github.io)
