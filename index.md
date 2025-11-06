@@ -7,11 +7,11 @@ permalink: /
 <style>
 @keyframes fade {
   0%, 100% { opacity: 0; transform: scale(1.05); }
-  10%, 90% { opacity: 1; transform: scale(1); }
+  10%, 90% { opacity: 1; transform: scale(0.5); }
 }
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 10px;
   margin-top: 20px;
 }
@@ -19,7 +19,7 @@ permalink: /
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   animation: fade 10s infinite ease-in-out;
 }
