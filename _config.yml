@@ -39,6 +39,8 @@ nav:
         url: /works/theses/
       - title: Intellectual Properties
         url: /works/intellectual-properties/
+      - title: Software
+        url: /works/softtware/
   - title: Contact
     url: /contact/
 
