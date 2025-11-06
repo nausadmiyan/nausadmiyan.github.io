@@ -88,7 +88,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 
 <style>
   .nm-recent-pubs { margin: 2.5rem 0 1.25rem; }
-  .nm-recent-pubs__title { margin: 0 0 0.75rem; font-size: 1.15rem; font-weight: 600; }
+  .nm-recent-pubs__title { margin: 0 0 0.75rem; font-size: 1.05rem; font-weight: 450; }
 
   /* Slider layout */
   .nm-pub-viewport { overflow: hidden; }
@@ -96,7 +96,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     display: flex;
     width: 200%;            /* two panels side-by-side */
     transform: translateX(0%);
-    transition: transform 5000ms ease; /* slide speed */
+    transition: transform 10000ms ease; /* slide speed */
     will-change: transform;
   }
   .nm-pub-panel { width: 50%; padding-right: 1rem; box-sizing: border-box; }
@@ -147,7 +147,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     .nm-recent-pubs .nm-pub-item { line-height: 1.35; }
   }
 
-  @media (max-width: 540px){
+  @media (max-width: 640px){
     .nm-recent-pubs .nm-pub-grid { grid-template-columns: 1fr; }
   }
 </style>
@@ -201,8 +201,8 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     }
 
     var step = 0;
-    var delay = 6000;          // stay time for each pair
-    var slideMs = 2000;         // must match CSS transition
+    var delay = 12000;          // stay time for each pair
+    var slideMs = 6000;         // must match CSS transition
     var timer = null;
     var reduceMotion = (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
