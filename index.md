@@ -39,8 +39,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
   <a href="https://www.sciencedirect.com/science/article/pii/S0959652621036623" target="_blank"><img src="/assets/img/pic-4.jpg" alt="Image 4"></a>
 </div>
 
-
-&nbsp;&nbsp;&nbsp;
+<br><br>
 
 
 
