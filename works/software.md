@@ -5,8 +5,8 @@ permalink: /works/software/
 ---
 
 <style>
-@media (min-width: 992px){
-  .page-content .wrapper { max-width: 1200px; }
+@media (min-width: 892px){
+  .page-content .wrapper { max-width: 1000px; }
 }
 
 img.full-img {
