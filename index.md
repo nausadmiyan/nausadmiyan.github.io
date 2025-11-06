@@ -24,9 +24,9 @@ permalink: /
   animation: fade 10s infinite ease-in-out;
 }
 /* stagger animation per image link */
-.gallery a:nth-child(2) img { animation-delay: 6s; }
-.gallery a:nth-child(3) img { animation-delay: 8s; }
-.gallery a:nth-child(4) img { animation-delay: 10s; }
+.gallery a:nth-child(2) img { animation-delay: 8s; }
+.gallery a:nth-child(3) img { animation-delay: 12s; }
+.gallery a:nth-child(4) img { animation-delay: 18s; }
 </style>
 
 ### Research focus
@@ -96,7 +96,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     display: flex;
     width: 200%;            /* two panels side-by-side */
     transform: translateX(0%);
-    transition: transform 1000ms ease; /* slide speed */
+    transition: transform 5000ms ease; /* slide speed */
     will-change: transform;
   }
   .nm-pub-panel { width: 50%; padding-right: 1rem; box-sizing: border-box; }
@@ -110,7 +110,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
   }
   .nm-pub-item {
     display: grid;
-    grid-template-columns: 20px 1fr;
+    grid-template-columns: 15px 1fr;
     gap: 0.5rem 0.6rem;
     line-height: 1.3;
   }
