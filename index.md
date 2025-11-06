@@ -24,9 +24,9 @@ permalink: /
   animation: fade 10s infinite ease-in-out;
 }
 /* stagger animation per image link */
-.gallery a:nth-child(2) img { animation-delay: 12s; }
+.gallery a:nth-child(2) img { animation-delay: 6s; }
 .gallery a:nth-child(3) img { animation-delay: 18s; }
-.gallery a:nth-child(4) img { animation-delay: 24s; }
+.gallery a:nth-child(4) img { animation-delay: 36s; }
 </style>
 
 ### Research focus
@@ -39,12 +39,13 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
   <a href="https://www.sciencedirect.com/science/article/pii/S0959652621036623" target="_blank"><img src="/assets/img/pic-4.jpg" alt="Image 4"></a>
 </div>
 
-- some snaps
+
+- 
+
+
 
 ----
-
-
-
+----
 
 **Scholar:** [Google Scholar](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en)  
 **Email:** nausad.miyan[at]uri.edu
