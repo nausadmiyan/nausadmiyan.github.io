@@ -47,7 +47,6 @@ Deployment is automatic — every push to the `main` branch updates the live sit
 
 ## 📸 Preview (Add Images)
 
-You can showcase screenshots or research previews:
 
 ```markdown
 ![Homepage](assets/img/site-home.jpg)
@@ -82,7 +81,7 @@ You can showcase screenshots or research previews:
 Fascitelli Center for Advanced Engineering, Room #275  
 2 East Alumni Ave, Kingston, RI 02881, USA  
 
-**Email:** nausad_miyan@uri.edu  
+
 **Google Scholar:** [View Profile](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en)
 
 ---
