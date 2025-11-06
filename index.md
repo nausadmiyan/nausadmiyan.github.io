@@ -6,9 +6,9 @@ permalink: /
 
 <style>
 @keyframes fade {
-  0%, 100% { opacity: 0; transform: scale(1.05); }
-  10%, 40% { opacity: 1; transform: scale(1); }
-  50%, 100% { opacity: 0; transform: scale(1.02); }
+  0%, 100% { opacity: 0; transform: scale(1); }
+  10%, 40% { opacity: 1; transform: scale(0.1); }
+  50%, 100% { opacity: 0; transform: scale(1); }
 }
 
 .nm-collage {
