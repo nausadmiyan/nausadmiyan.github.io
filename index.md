@@ -40,12 +40,6 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 </div>
 
 <br><br>
-----
-----
-<br><br>
-<br><br>
-<br><br>
-<br><br>
 <br><br>
 <br><br>
 ----
@@ -53,7 +47,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 
 **Scholar:** [Google Scholar](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en)  
 **Email:** nausad.miyan[at]uri.edu
-
+<br><br>
 <!-- =========================
      Recent publications (2-up, auto-sliding)
      ========================= -->
