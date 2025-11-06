@@ -5,19 +5,39 @@ permalink: /
 ---
 
 <style>
-@media (min-width: 850px){
-  .page-content .wrapper { max-width: 950px; }
+@keyframes fade {
+  0%, 100% { opacity: 0; transform: scale(1.05); }
+  10%, 90% { opacity: 1; transform: scale(1); }
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  animation: fade 10s infinite ease-in-out;
+}
+.gallery img:nth-child(2) { animation-delay: 2s; }
+.gallery img:nth-child(3) { animation-delay: 4s; }
+.gallery img:nth-child(4) { animation-delay: 6s; }
 </style>
-
-
 
 ### Research focus
 Sustainable cementitious systems, auxetic composites, and ML-driven modeling across experiments, numerical analysis, and interpretability.
 
-- Reproducible workflows (FE/ML pipelines)
-- Design exploration & surrogate modeling
-- Multiscale, multiphysics mechanics
+<div class="gallery">
+  <a href="https://www.sciencedirect.com/science/article/pii/S0950061821004517" target="_blank"><img src="/assets/img/pic-1.jpg" alt="Image 1"></a>
+  <a href="https://www.sciencedirect.com/science/article/pii/S0301479724019091" target="_blank"><img src="/assets/img/pic-2.jpg" alt="Image 2"></a>
+  <a href="https://www.sciencedirect.com/science/article/pii/S235271022402816X" target="_blank"><img src="/assets/img/pic-3.jpg" alt="Image 3"></a>
+  <a href="https://www.sciencedirect.com/science/article/pii/S0959652621036623" target="_blank"><img src="/assets/img/pic-4.jpg" alt="Image 4"></a>
+</div>
+
 
 **Scholar:** [Google Scholar](https://scholar.google.com/citations?user=orlzgpMAAAAJ&hl=en)  
 **Email:** nausad_miyan@uri.edu
