@@ -17,8 +17,11 @@ permalink: /works/software/
 
 
 ---
+
+
 <div align="center">
-  <img src="/assets/img/pic-5.jpg" alt="Nausad Miyan" width="400" style="border-radius: 1%; margin-bottom: 35px;">
+  
+  <img src="/assets/img/pic-5.jpg" alt="Nausad Miyan" width="400" style="border-radius: 1%; margin-bottom: 1px;">
 
 </div>
 
