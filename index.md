@@ -7,13 +7,13 @@ permalink: /
 <style>
 @keyframes fade {
   0%, 100% { opacity: 0; transform: scale(1.05); }
-  10%, 90% { opacity: 1; transform: scale(1); }
+  10%, 90% { opacity: 1; transform: scale(0.7); }
 }
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .gallery img {
   width: 100%;
@@ -24,9 +24,9 @@ permalink: /
   animation: fade 10s infinite ease-in-out;
 }
 /* stagger animation per image link */
-.gallery a:nth-child(2) img { animation-delay: 8s; }
-.gallery a:nth-child(3) img { animation-delay: 12s; }
-.gallery a:nth-child(4) img { animation-delay: 18s; }
+.gallery a:nth-child(2) img { animation-delay: 12s; }
+.gallery a:nth-child(3) img { animation-delay: 18s; }
+.gallery a:nth-child(4) img { animation-delay: 24s; }
 </style>
 
 ### Research focus
@@ -139,7 +139,7 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
 }
 
   @media (min-width: 1200px){
-  .nm-recent-pubs .nm-pub-viewport { max-width: 1800px; }
+  .nm-recent-pubs .nm-pub-viewport { max-width: 2100px; }
 }
 
   @media (min-width: 992px){
@@ -201,8 +201,8 @@ Sustainable cementitious systems, auxetic composites, and ML-driven modeling acr
     }
 
     var step = 0;
-    var delay = 3000;          // stay time for each pair
-    var slideMs = 500;         // must match CSS transition
+    var delay = 6000;          // stay time for each pair
+    var slideMs = 2000;         // must match CSS transition
     var timer = null;
     var reduceMotion = (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
