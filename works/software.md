@@ -18,19 +18,11 @@ permalink: /works/software/
 
 ---
 <div align="center">
-  <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 10%; margin-bottom: 15px;">
-  <h2 style="margin-bottom: 10px;">Nausad Miyan</h2>
-  <p>Ph.D. Student · Civil and Environmental Engineering · University of Rhode Island</p>
+  <img src="/assets/img/pic-5.jpg" alt="Nausad Miyan" width="400" style="border-radius: 1%; margin-bottom: 35px;">
+  <h2 style="margin-bottom: 30px;">Nausad Miyan</h2>
 </div>
 
 ---
 
 
----
-<div align="center">
-  <img src="/assets/img/profile.jpg" alt="Nausad Miyan" width="200" style="border-radius: 10%; margin-bottom: 15px;">
-  <h2 style="margin-bottom: 10px;">Nausad Miyan</h2>
-  <p>Ph.D. Student · Civil and Environmental Engineering · University of Rhode Island</p>
-</div>
 
----
