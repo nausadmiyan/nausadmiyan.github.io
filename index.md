@@ -24,9 +24,9 @@ permalink: /
   animation: fade 10s infinite ease-in-out;
 }
 /* stagger animation per image link */
-.gallery a:nth-child(2) img { animation-delay: 2s; }
-.gallery a:nth-child(3) img { animation-delay: 4s; }
-.gallery a:nth-child(4) img { animation-delay: 6s; }
+.gallery a:nth-child(2) img { animation-delay: 4s; }
+.gallery a:nth-child(3) img { animation-delay: 6s; }
+.gallery a:nth-child(4) img { animation-delay: 10s; }
 </style>
 
 ### Research focus
