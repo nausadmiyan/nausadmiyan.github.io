@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-permalink: /works/intellectual-properties/
+permalink: /works/software/
 ---
 
 <style>
