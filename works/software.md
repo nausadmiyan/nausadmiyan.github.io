@@ -20,7 +20,7 @@ img.full-img {
 }
 </style>
 
-The software collection includes the [StatML Framework](https://github.com/nausadmiyan/nausadmiyan.github.io/blob/main/assets/img/run_gui.py), a graphical interface for running and visualizing statistical and machine learning models, and the [Machine Learning Source Codes](https://github.com/nausadmiyan/paper1) covering neural networks, SHAP interpretation, and data augmentation, which form the core of predictive and explainable modeling workflows in materials research. Additional frameworks and supporting scripts are available in [paper1-links](https://github.com/nausadmiyan/paper1-links), providing extended resources for data analysis and model integration.
+The software collection includes the [StatML Framework](https://github.com/nausadmiyan/nausadmiyan.github.io/blob/main/assets/img/run_gui.py), a graphical interface for running and visualizing statistical and machine learning models, and the [Machine Learning Source Codes](https://www.sciencedirect.com/science/article/pii/S235271022402816X#appsec1) covering neural networks, SHAP interpretation, and data augmentation, which form the core of predictive and explainable modeling workflows in materials research. Additional frameworks and supporting scripts are available in [this article](https://www.sciencedirect.com/science/article/pii/S2238785423012851#appsec1), providing extended resources for data analysis and model integration.
 
 ---
 
