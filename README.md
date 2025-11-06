@@ -84,6 +84,3 @@ Fascitelli Center for Advanced Engineering, Room #275
 
 ---
 
-## 📄 License
-
-Licensed under the **MIT License** — free to reuse and modify with attribution.
